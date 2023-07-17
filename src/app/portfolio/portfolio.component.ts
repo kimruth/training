@@ -1,0 +1,16 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-portfolio',
+  templateUrl: './portfolio.component.html',
+  styleUrls: ['./portfolio.component.scss']
+})
+export class PortfolioComponent {
+
+  image = [
+    {
+      imageSrc: "../../assets/img/images-removebg-preview.png"
+    }
+  ]
+  
+}

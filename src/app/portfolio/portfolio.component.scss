@@ -1,0 +1,100 @@
+.container{
+    width: 90%;
+    // background-color: red;
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+
+    .nav-links{
+
+        ul{
+            display: flex;
+            gap: 70px;
+            margin-top: 25px;
+            font-weight: 900;
+            :hover{
+                border-bottom: 1px solid red;
+            }
+
+            li{
+                list-style: none;
+                
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+    .schedule{
+        margin-top: 25px;
+
+        i{
+            color: red;
+            font-size: 18px;
+            margin-right: 2px;
+        }
+        a{
+            text-decoration: none;
+            color: red;
+        }
+    }
+}
+
+.presentation{
+    display: flex;
+    justify-content: space-evenly;
+    // background-color: blue;
+    gap: 70px;
+
+    .details{
+        margin-top: 70px;
+        line-height: 40px;
+        font-size: larger;
+        width: 50%;
+        // background-color: green;
+        
+        button{
+            width: 120px;
+            height: 30px;
+            background-color: red;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+    }
+
+    .image{
+        width: 30%;
+        height: 400px;
+        background-image: url("../../assets/img/images-removebg-preview.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 0;
+        border-style: 5px groove red;
+    }
+}
+
+.items{
+    display: flex;
+    gap: 170px;
+    margin-left: 50px;
+    margin-top: 40px;
+
+    #item{
+        border: 0;
+        padding-right: 15px;
+        border-right: 2px solid rgba(0, 0, 0, 0.115);
+    }
+
+    .item{
+        color: black;
+        text-decoration: none;
+    }
+}
